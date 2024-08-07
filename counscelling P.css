@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #001429;
+    background-image: linear-gradient(180deg, #001429 12%, #004a6f 96%);
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(6,1fr);
+}
+
+.navBar {
+    border-bottom: 1px solid wheat;
+    height: fit-content;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: flex;
+    box-shadow: -12px -8px 40px rgba(255, 255, 255, 0.12) inset;
+
+}
+.leftPanel {
+    border-right: 1px solid wheat;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
+.mainArea {
+    grid-row-start: 2;
+    grid-row-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+.logoBox{
+    display: flex;
+}
+.logoBox h1{
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.logoBox h1 a{
+    color: white;
+    font-family: cursive;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+
+}
+.logoBox h1 a:hover{
+    color: palevioletred;
+}
+.logoBox img{
+    width: 7rem;
+    height: 5rem;
+}
+
+.loginArea {
+    display: flex;
+    margin-left: 12rem;
+}
+.loginArea img{
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+}
+.loginArea h2{
+    color: rgb(175, 175, 175);
+    margin-top: 1.7rem;    
+}
+.profile{
+    margin-left: 6rem;
+}
+.NavBox{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+.NavBox a{
+    color: rgb(180, 180, 180);
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.NavBox a:hover{
+    background-color: rgba(216, 112, 147, 0.299);
+    color: white;
+    border-radius: 2rem;
+}
+
+/* LEFT PANEL */
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin: auto 0.5rem;
+}
+.form button{
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 50%;
+    background:rgba(148, 216, 255, 0.641) ;
+    cursor: pointer;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.form button img{
+    width: 2rem;
+}
+.form input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 6px 10px;
+    font-size: 15px;
+    color: #e1e1e1;
+}
+::placeholder{
+    color: #e1e1e1;
+}
+
+.categories{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.categories a{
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+    margin-left: 1.5rem;
+}
+.categories  a img{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-bottom: 0.7rem;
+}
+.categories a:hover{
+    transform: scale(1.05);
+}
+.categories a h1{
+    color: white;
+    font-size: 1.3rem;
+}
+.categories a h1:hover{
+    color: wheat
+}
+
+/* heading */
+.heading{
+    color: white;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.heading:hover{
+    color: #00bfffda;
+}

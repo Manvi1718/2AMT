@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0f0608;
+    background-image: linear-gradient(160deg, #0f0608 0%, #3055c0 100%);
+    /* background-image: url(../Images/collage.jpg); */
+    /* filter: opacity(0.75); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurBox{
+    width: 30%;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+.logoBox{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.logoBox h1{
+    font-size: 2.5rem;
+    font-family:cursive;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
+.logoBox img{
+    width: 15rem;
+}
+
+.textBox{
+    height: 1.875rem;
+    width: 25rem;
+    border-radius: 5rem;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #faeff7;
+}
+.textBox:focus{
+    outline: none;
+
+}
+input::placeholder {
+    font-style: italic;
+    font-weight: 450;  
+    color: #000000;        
+    opacity: 0.9;        
+    padding: 20px 20px;   
+}
+.loginButton{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4rem;
+    border:  3px solid black;
+    color: pink;
+    font-weight: 800;
+    background-color: #000000;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+    margin-top: 3rem;
+    margin-left: 9rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 2rem;
+}
+.loginButton:hover{
+    border: 3px solid pink;
+    transition: all ease-in 0.3s;
+}
+
+.newAcc{
+    font-size:0.775rem;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-family:monospace;
+    /* margin-top: rem; */
+    margin-left: 5rem;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.newAcc:hover{
+    color: rgb(67, 177, 255);
+}
+select{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    font-size:0.785rem;
+    font-weight: 700;
+}
+select:hover{
+    outline: none;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: rgb(0, 0, 69);
+}
+.chooseRole{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.7rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+}
