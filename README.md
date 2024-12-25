@@ -60,6 +60,7 @@ To get started with the project, follow these steps:
 
 ## Project Contributors
 - Khushi Singh
+- Geeta Garg
 
 ## Conclusion
 "2 A.M. Thoughts" aims to create a supportive community for young individuals struggling with mental health issues and overthinking. By providing a platform for sharing experiences, engaging in discussions, and seeking counseling, we hope to raise awareness and offer support to those in need. Mental health is a critical issue globally, and addressing it among young people is essential for their overall well-being and development.
